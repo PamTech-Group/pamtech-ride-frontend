@@ -405,7 +405,7 @@ const BookNowPage = () => {
               </label>
               <DatePicker
                 selected={startDate}
-                onChange={(date) => setStartDate(date || undefined)}
+                onChange={(date) => setStartDate(date ?? null)}
                 selectsStart
                 startDate={startDate || undefined}
                 endDate={endDate || undefined}
@@ -419,7 +419,7 @@ const BookNowPage = () => {
               </label>
               <DatePicker
                 selected={endDate}
-                onChange={(date) => setEndDate(date || undefined)}
+                onChange={(date) => setEndDate(date ?? null)}
                 selectsEnd
                 startDate={startDate || undefined}
                 endDate={endDate || undefined}
