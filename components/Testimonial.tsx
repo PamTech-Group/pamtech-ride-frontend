@@ -3,9 +3,9 @@ import YouTube from 'react-youtube';
 
 const Testimonial = () => {
   const testimonials = [
-    { id: '1', videoId: 'vXKotssNyIA', name: 'John Doe', role: 'Business Executive' },
-    { id: '2', videoId: 'riMLis8Ga7U', name: 'Jane Smith', role: 'Luxury Enthusiast' },
-    { id: '3', videoId: 'G9yit6oJink', name: 'Apama', role: 'Celebrity Comedian' },
+    { id: '1', videoId: 'U7ufrMmvODo', name: 'Pamtech', role: 'Luxury Ride' },
+    { id: '2', videoId: 'SKjZeCDXvho', name: 'Mc Mbakara', role: 'Celebrity Comedian' },
+    { id: '3', videoId: 'hewMj5O8y60', name: 'Nons Mirage', role: 'Content Creator' },
   ];
 
   const opts = {
