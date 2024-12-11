@@ -23,7 +23,7 @@ const NavBar = () => {
         </Link>
   
         <CustomButton
-          title='Call Us'
+          title='Book Now'
           btnType='button'
           containerStyles='bg-primary-blue text-white rounded-full min-w-[130px]'
           handleClick={handleNavigate}
